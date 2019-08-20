@@ -6,7 +6,7 @@ DESCRIPTION=: 0 : 0
 J emulations of the Fold primitives
 )
 
-VERSION=: '1.0.1'
+VERSION=: '1.0.2'
 
 FILES=: 0 : 0
 fold.ijs
