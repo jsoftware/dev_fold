@@ -6,12 +6,12 @@ DESCRIPTION=: 0 : 0
 J emulations of the Fold primitives
 )
 
-VERSION=: '1.0.0'
+VERSION=: '1.0.1'
 
 FILES=: 0 : 0
 fold.ijs
 )
 
-FOLDER=: 'system/fold'
+FOLDER=: 'dev/fold'
 
 RELEASE=: 'j901'
