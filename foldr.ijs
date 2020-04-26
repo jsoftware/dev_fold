@@ -1,6 +1,6 @@
 FoldZv_j_ =: 0 0  NB. isfold, iteration count
 NB. Fold.  Foldtype_j_ is set by caller
-Fold_j_ =: 2 : 0
+Foldr_j_ =: 2 : 0
 'init mult fwd rev' =. 2 2 2 2 #: Foldtype_j_
 4!:55 <'Foldtype_j_'
 fzv =. FoldZv_j_  NB. stack fold info
