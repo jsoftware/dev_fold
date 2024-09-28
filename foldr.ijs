@@ -16,7 +16,7 @@ if. fwd+rev do.  NB. if forward or reverse...
       emptycell =. 0 # (,:x) [^:init y  NB. fillcell: empty array of x or (item of y)
       FoldZv_j_ =: FoldZv_j_ + 00 0 1 1
       try. res =. u. v./ emptycell  NB. get the neutral for the empty cell, and try applying u to it
-      catcht. 13!:8 (3)  NB. Z: on empty is domain error
+      catcht. 13!:8 (3) [ FoldZv_j_ =. fzv  NB. Z: on empty is domain error
       end.
     end.
     if. mult do. res =. (<: nitems) # ,: res end.  NB. Single result is x/y/neutral, Multiple result is array of them (error if no items)
